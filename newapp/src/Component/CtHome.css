@@ -1,0 +1,107 @@
+.body{
+    background-color:  rgb(238, 193, 179);
+}
+.body{
+    display: flex;   
+}
+.left{
+    height: 100vh;
+    width: 40vw;
+    border: 2px solid rgb(131, 129, 129);
+    border-right: none;
+
+}
+ img{
+    height:100vh ;
+    width: 40vw;
+    border-radius: 10px;
+}
+.right{
+    height: 100vh;
+    width: 60vw;
+    /* border: 2px solid rgb(123, 123, 124); */
+
+}
+.right .top{
+    height: 60vh;
+    border: 2px solid rgb(130, 131, 131);
+    border-bottom: none;
+    position: relative;
+
+
+}
+.right .bottom{
+    height: 40vh;
+    border: 2px solid rgb(128, 127, 127);
+    /* border-top: none; */
+    position: relative;
+    padding-left:90px ;
+    padding-top: 50px;
+
+
+}
+
+.top .first{
+    position: absolute;
+    top: -370px;
+    left: -10px;
+}
+.top .sec{
+    position: absolute;
+    left: -263px;
+    bottom: -60px;
+
+}
+.text{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 90px;
+    top: 120px;
+    color: rgb(245, 85, 85);;
+}
+.text h2{
+    width: 170px;
+    height: 100px;
+}
+.tlogo{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    right: -550px;
+    top: -60px;
+}
+.h3{
+    width: 50vw;
+}
+h3{
+    color: rgb(245, 85, 85);;
+}
+.h3 img {
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.h3 h4{
+    width: 300px;
+    height: 100px;
+    line-height: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(245, 85, 85);
+}
+.h3 button{
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(197, 193, 193);
+}
+.h3 button:hover{
+    color: white;
+    background-color: rgb(241, 53, 53);
+}

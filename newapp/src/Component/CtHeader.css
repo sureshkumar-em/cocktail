@@ -1,0 +1,39 @@
+.container-fluid{
+    height: 50px;
+}
+.dots{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+.bg-grey{
+    height: 10px;
+    width:  10px;
+    border: 2px solid gray;
+    background-color: gray;
+    border-radius: 50%;
+
+}
+.bg-yellow{
+    height: 10px;
+    width:  10px;
+    border: 2px solid yellow;
+    background-color: yellow;
+    margin: 0 5px ;
+    border-radius: 50%;
+
+}
+.bg-red{
+    height: 10px;
+    width:  10px;
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 50%;
+
+}
+.left{
+    width: 50vw;
+}
+.right{
+    width: 50vw;
+}
