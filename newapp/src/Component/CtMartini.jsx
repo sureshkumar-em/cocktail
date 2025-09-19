@@ -20,7 +20,7 @@ function CtMartini() {
     //     document.getElementById('bigbox').attributes(className;displaybox)
     //   }
     // )
-    <div>
+    <div className='martini'>
     <div>
         <input type='search'/>
     </div>

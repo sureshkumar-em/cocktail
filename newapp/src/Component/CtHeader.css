@@ -1,5 +1,9 @@
 .container-fluid{
     height: 50px;
+    background-color:rgb(238, 193, 179) ;
+}
+.navbar{
+    padding: 0px;
 }
 .dots{
     display: flex;

@@ -5,6 +5,9 @@
     margin: 0;
     margin-top: 40px;
 }
+.all{
+    background-color: rgb(238, 193, 179);
+}
 .Drink{
     display: flex;
     flex-direction: column;

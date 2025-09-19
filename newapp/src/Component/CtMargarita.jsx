@@ -20,7 +20,11 @@ function CtMargarita() {
     //     document.getElementById('bigbox').attributes(className;displaybox)
     //   }
     // )
-    <div>
+    <div className='all'>
+    {/* <div>
+      <h3>IF LIFE GIVES YOU LIMES</h3>
+      <h1>MAKE MARGARITAS</h1>
+    </div> */}
     <div>
         <input type='search'/>
     </div>

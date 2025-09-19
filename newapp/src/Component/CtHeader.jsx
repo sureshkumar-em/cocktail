@@ -6,6 +6,7 @@ function CtHeader() {
   const navigate = useNavigate(); // lowercase variable name (convention)
 
   return (
+    <div className="head">
     <nav className="navbar navbar-expand-lg bg-body-tertiary w-100">
       <div className="container-fluid">
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -14,7 +15,7 @@ function CtHeader() {
             {/* Dropdown */}
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
+                className="nav-link active dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -55,12 +56,21 @@ function CtHeader() {
             {/* Example Link */}
             <li className="nav-item">
               <button
-                className="nav-link btn btn-link"
-                onClick={() => navigate("/link")}
+                className="nav-link active btn btn-link"
+                onClick={() => navigate("/About Us")}
               >
-                Link
+                About Us
               </button>
             </li>
+             <li className="nav-item">
+              <button
+                className="nav-link active btn btn-link"
+                onClick={() => navigate("/Contact")}
+              >
+                Contact
+              </button>
+            </li>
+            
           </ul>
         </div>
 
@@ -72,6 +82,7 @@ function CtHeader() {
         </div>
       </div>
     </nav>
+    </div>
   );
 }
 

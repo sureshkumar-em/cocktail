@@ -8,10 +8,10 @@ import Drinks from "./img/image (4).png"
 
 function CtHome() {
   return (
-    <div>
+    <div className='main'>
       <div className='body'>
         <div className='left'>
-          <img src={Image}/>
+          <img className='img' src={Image}/>
         </div>
         <div className='right  '>
           <div className='top '>
